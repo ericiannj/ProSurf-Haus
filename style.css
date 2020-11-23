@@ -1,0 +1,23 @@
+.carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.custom-logo {
+  height: 60px;
+}
+
+.content-section {
+  text-align: center;
+}
+
+.forms-header {
+  color: white;
+  background-color: black;
+  width: 32%;
+}
