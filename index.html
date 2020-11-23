@@ -17,7 +17,7 @@
 
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Landing Page SurfPro Haus</title>
+        <title>SurfPro Haus</title>
 
         <!-- JQuery + Popper + BootstrapCDN -->
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
@@ -124,12 +124,14 @@
                 </a>
             </div>
         </header>
-        <!--End of Carousel-->
-
-        <hr class="featurette-divider">
+        <!--End of Carousel-->    
 
         <a id="about"></a>
         <div class="container">
+        
+        <br>
+        <br>
+        <br>
 
         <!--Description-->
         <div class="row featurette">
@@ -155,9 +157,9 @@
 
         <!--Prices-->
         <a id="services"></a>
-        <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+        <div  class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
             <h1 class="display-4">Our Services</h1>
-            <p class="lead">Check out how we can help!</p>
+            <p  class="lead">Check out how we can help!</p>
         </div>
 
         <div class="card-deck mb-3 text-center">
@@ -167,12 +169,11 @@
                 </div>
                 <div class="card-body">
                     <h1 class="card-title pricing-card-title">Just register!</small></h1>
+                    <br>
                     <ul class="list-unstyled mt-3 mb-4">
                         <li>Weekly tips on the best spots to surf according to the level of difficulty.</li>
                         <li>We send emails with everything you need to know to surf alone and with friends!</li>
                     </ul>
-                    <br>
-                    <button type="button" class="btn btn-lg btn-block btn-primary">Sign In</button>
                 </div>
             </div>
             <div class="card mb-4 box-shadow">
@@ -181,11 +182,11 @@
                 </div>
                 <div class="card-body">
                     <h1 class="card-title pricing-card-title">$ 10<small class="text-muted">,00</small> /Mounth</h1>
+                    <br>
                     <ul class="list-unstyled mt-3 mb-4">
                         <li>In addition to the weekly tips, we provide an advantage club for purchasing accessories.</li>
                         <li>Paraffin, leashes, keels ... What you need so you can always be prepared!</li>
                     </ul>
-                    <button type="button" class="btn btn-lg btn-block btn-primary">Purchase</button>
                 </div>
             </div>
             <div class="card mb-4 box-shadow">
@@ -194,29 +195,55 @@
                 </div>
                 <div class="card-body">
                     <h1 class="card-title pricing-card-title">$ 25<small class="text-muted">,00</small> /Mounth</h1>
+                    <br>
                     <ul class="list-unstyled mt-3 mb-4">
                         <li>In addition to the basics, we also offer services for those who want to go further!</li>
                         <li>An advantage club for the purchase of boards and classes to accelerate your progress in this experience!</li>                        
                     </ul>
-                    <button type="button" class="btn btn-lg btn-block btn-primary">Purchase</button>
                 </div>
             </div>
         </div>
         <!--End of prices-->
 
         <!--Form-->     
-        <section class="content-section">    
-            <div class="forms-header">
-                <p>Sign up to be part of SurfPro!</p>
+        <form>
+            <div class="form-group row">
+              <label for="inputEmail3" class="col-sm-2 col-form-label">Email:</label>
+              <div class="col-sm-10">
+                <input type="email" class="form-control" id="user-email">
+              </div>
             </div>
-            <div class="forms-questions">
-                <label>Name</label>
-                    <input type="text" id="user-name" class="textocss">
-                    <label>Email</label>
-                    <input type="text" id="user-email" class="textocss">
-                    <input type="submit" id="user-form"></input>
+            <fieldset class="form-group">
+              <div class="row">
+                <legend class="col-form-label col-sm-2 pt-0">Plan:</legend>
+                <div class="col-sm-10">
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                    <label class="form-check-label" for="gridRadios1">
+                      Free
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                    <label class="form-check-label" for="gridRadios2">
+                      Basic Plan
+                    </label>
+                  </div>
+                  <div class="form-check disabled">
+                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3">
+                    <label class="form-check-label" for="gridRadios3">
+                      Advanced Plan
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </fieldset>
+            <div class="form-group row">
+              <div class="col-sm-10">
+                <button id="user-form" type="submit" class="btn btn-primary">Sign in</button>
+              </div>
             </div>
-        </section>
+          </form>
         <!--End of Form-->
 
         <!--Contacts-->
