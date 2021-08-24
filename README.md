@@ -1,4 +1,4 @@
-<img src="./assets/img/logo.png">
+<img src="./assets/img/logo.png" align="center" max-width="80px">
 <h1 align="center">SurfPro-Haus</h1>
 
 ## Status
