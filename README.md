@@ -1,5 +1,5 @@
-<img src="./assets/img/logo.png.png">
-# SurfPro Haus - CodiJr Challenge
+<img src="./assets/img/logo.png">
+<h1 align="center">SurfPro-Haus</h1>
 
 ## Status
 
@@ -21,7 +21,7 @@ HTML, CSS and JavaScript were used with the support of Bootstrap. Finally, also 
 - [Status](#status)
 - [Content](#content)
 - [How to use it?](#how-to-use-it)
-- [StackandTechnoloy](#stack-and-technology)
+- [Stack and Technoloy](#stack-and-technology)
 - [ApplicationPhotos](#application-photos)
 
 ## How to use it?
